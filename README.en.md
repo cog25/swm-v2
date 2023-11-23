@@ -22,7 +22,7 @@ Solid apps are built with _adapters_, which optimise your project for deployment
 By default, `bun run build` will generate a Node* app that you can run with `bun start`. To use a different adapter, add it to the `devDependencies` in `package.json` and specify in your `vite.config.js`.
 
 ## Commit
-Refernce: [nabi-chan/turborepo-template](https://github.com/nabi-chan/turborepo-template/blob/main/README.md#commit-convention)
+> Refernce: [nabi-chan/turborepo-template](https://github.com/nabi-chan/turborepo-template/blob/main/README.md#commit-convention)
 
 - `feat`: A new feature
 - `fix`: A bug fix
