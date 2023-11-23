@@ -1,12 +1,8 @@
-# SolidStart by cog25
+# swm-v2
+- soild-start
+- unocss
+- bun
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com) and [`unocss`](https://unocss.dev);
-
-## Creating a project
-
-```bash
-bunx degit cog25/solidstart
-```
 
 ## Developing
 
