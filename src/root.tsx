@@ -12,7 +12,9 @@ import {
   Scripts,
   Title,
 } from "solid-start";
+import "./styles.css"
 import "virtual:uno.css";
+import "@unocss/reset/tailwind.css";
 
 export default function Root() {
   return (
@@ -22,7 +24,7 @@ export default function Root() {
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Body>
+      <Body class="font-sans">
         <Suspense>
           <ErrorBoundary>
             <Routes>
