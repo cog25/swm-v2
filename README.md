@@ -17,9 +17,9 @@ bun dev -- --open
 ```
 
 ## Building
-Solid 앱은 다양한 환경에 배포할 수 있도록 프로젝트를 최적화하는 _adapters_로 빌드됩니다.
+Solid 앱은 다양한 환경에 배포할 수 있도록 프로젝트를 최적화하는 *adapter*로 빌드됩니다.
 
-기본적으로 `bun run build`는 `bun start`로 실행할 수 있는 Node* 앱을 생성합니다. 다른 어댑터를 사용하려면 `package.json`의 `devDependencies`에 해당 _adapter_를 추가하고 `vite.config.js`에 지정하세요.
+기본적으로 `bun run build`는 `bun start`로 실행할 수 있는 Node* 앱을 생성합니다. 다른 어댑터를 사용하려면 `package.json`의 `devDependencies`에 해당 *adapter*를 추가하고 `vite.config.js`에 지정하세요.
 
 ## Commit
 Refernce: [nabi-chan/ch-four-cuts](https://github.com/nabi-chan/ch-four-cuts/blob/main/README.md#commit-convention)
