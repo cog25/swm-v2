@@ -31,9 +31,8 @@ type WarpperProps = { wrapperClass: string | undefined };
 type HTMLProps = JSX.HTMLAttributes<HTMLElement>;
 
 const IntroduceArticle = (props: ParentProps<WarpperProps & HTMLProps>) => {
-  const [wrapperProps, htmlProps] = splitProps(props, [
-    "wrapperClass",
-  ]) satisfies [WarpperProps, HTMLProps];
+  const [wrapperProps, htmlProps] = splitProps(props, ["wrapperClass"]);
+
   return (
     <div class={wrapperProps.wrapperClass}>
       <article {...htmlProps}>
@@ -73,8 +72,20 @@ const Introduce = () => (
 );
 
 const Showcase = () => (
-  <section>
-    <h2 class="container text-4xl font-500 mb-8">Showcase</h2>
+  <section class="container mb-8">
+    <h2 class="text-4xl font-500 mb-8">Showcase</h2>
+    <article class="my-4 bg-slate-100 rd-2 p-4 grid grid-cols-[1fr_auto] grid-items-end">
+      <div>
+        <h3 class="text-2xl font-600">동아리 홈페이지</h3>
+        <p>
+          지금 이 웹사이트. Solid-Start와 UnoCSS, Typescript로 만들었습니다.
+        </p>
+      </div>
+      <a href="/showcase/homepage" class="vertical-baseline hover:underline">
+        <span class="i-zondicons-arrow-thin-right inline-block h-0.8em mr-1" />
+        자세히 보기
+      </a>
+    </article>
   </section>
 );
 
@@ -94,4 +105,3 @@ const Apply = () => (
     </article>
   </section>
 );
-

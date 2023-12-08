@@ -20,7 +20,9 @@
     "@solidjs/router": "^0.8.3",
     "@unocss/reset": "^0.57.3",
     "solid-js": "^1.8.3",
-    "solid-start": "^0.3.8"
+    "solid-mdx": "^0.0.7",
+    "solid-start": "^0.3.8",
+    "solid-start-static": "^0.3.10"
   },
   "engines": {
     "node": ">=18"
