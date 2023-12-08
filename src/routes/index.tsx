@@ -91,7 +91,7 @@ const Showcase = () => (
 
 const Apply = () => (
   <section>
-    <h2 class="container text-4xl font-500 mb-8">Apply</h2>
+    <h2 class="container text-4xl font-500 my-8">Apply</h2>
     <article class="my-4 grid place-items-center">
       {/* TODO: 구글 폼 등으로 연결 */}
       <a href="">

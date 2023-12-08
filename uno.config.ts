@@ -13,7 +13,7 @@ export default defineConfig({
   transformers: [transformerVariantGroup()],
   // ...UnoCSS options
   shortcuts: {
-    "container": "m-auto max-w-900px px-4",
+    "container": "m-auto max-w-900px px-8",
   },
   theme: {
     fontFamily: {
